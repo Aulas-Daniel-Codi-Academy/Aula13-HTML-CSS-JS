@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previsão do Tempo</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="img/png" href="../public/nublado.png" />
+  </head>
+  <body>
+    <div class="app-container">
+      <h1>Previsão do Tempo</h1>
+
+      <!-- Campo de entrada para o nome da cidade -->
+      <input type="text" id="cityInput" placeholder="Digite a cidade..." />
+
+      <!-- Botão para buscar o clima -->
+      <button id="searchBtn">Buscar</button>
+
+      <!-- Área que mostra o resultado da previsão (inicialmente escondida) -->
+      <div id="weatherResult" class="hidden">
+        <h2 id="cityName"></h2>
+        <p><strong>Temperatura:</strong> <span id="temperature"></span>°C</p>
+        <p><strong>Condição:</strong> <span id="condition"></span></p>
+      </div>
+    </div>
+
+    <!-- Link para o arquivo JS externo -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
