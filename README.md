@@ -39,7 +39,3 @@ const apiKey = "SUA_CHAVE_AQUI";
 
 4. Abra o arquivo `index.html` no navegador.
 5. Digite o nome da cidade e veja a previsão!
-
-## 📸 Exemplo
-
-![preview](https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/01d.png)
