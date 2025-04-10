@@ -1,4 +1,3 @@
-/* Estilização geral do corpo */
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(to right, #4facfe, #00f2fe);
@@ -8,16 +7,14 @@ body {
   padding: 40px;
 }
 
-/* Container principal do app */
 .app-container {
   max-width: 400px;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.2); /* fundo semi-transparente */
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 20px;
   border-radius: 12px;
 }
 
-/* Campo de entrada da cidade */
 input {
   padding: 10px;
   width: 80%;
@@ -26,7 +23,6 @@ input {
   margin-bottom: 10px;
 }
 
-/* Botão de busca */
 button {
   padding: 10px 20px;
   border: none;
@@ -37,12 +33,27 @@ button {
   transition: background 0.3s;
 }
 
-/* Efeito hover no botão */
 button:hover {
   background-color: #ddd;
 }
 
-/* Classe usada para esconder elementos */
 .hidden {
   display: none;
+}
+
+#forecast {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.forecast-card {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }

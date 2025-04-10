@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Previsão do Tempo</title>
-    <!-- Link para o arquivo CSS externo -->
+
+    <!-- Link para o arquivo de estilos -->
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="img/png" href="../public/nublado.png" />
+
+    <!-- Ícone da aba do navegador (opcional) -->
+    <link rel="icon" type="image/png" href="nublado.png" />
   </head>
   <body>
     <div class="app-container">
@@ -18,7 +21,7 @@
       <!-- Botão para buscar o clima -->
       <button id="searchBtn">Buscar</button>
 
-      <!-- Área que mostra o resultado da previsão (inicialmente escondida) -->
+      <!-- Área que mostra o resultado do clima atual -->
       <div id="weatherResult" class="hidden">
         <h2 id="cityName"></h2>
         <p><strong>Temperatura:</strong> <span id="temperature"></span>°C</p>
@@ -26,7 +29,7 @@
       </div>
     </div>
 
-    <!-- Link para o arquivo JS externo -->
+    <!-- Script principal -->
     <script src="scripts.js"></script>
   </body>
 </html>
